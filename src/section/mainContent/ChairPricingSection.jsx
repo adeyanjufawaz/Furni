@@ -29,11 +29,13 @@ function ChairPricingSection() {
         title={"Kruzo Aero Chair"}
         pricing={"$78.00"}
         img={chair2}
+        BGcolor={""}
       />
       <ChairPricingCard
         title={"Ergonomic Chair"}
         pricing={"$43.00"}
         img={chair3}
+        BGcolor={""}
       />
     </div>
   );

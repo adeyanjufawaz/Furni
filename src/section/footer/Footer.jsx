@@ -1,6 +1,9 @@
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import img from "../../assets/img/sofa.png";
 
 function Footer() {
@@ -33,7 +36,7 @@ function Footer() {
           <img src={img} alt="Sofa" className="w-[80%]" />
         </div>
       </div>
-      <div className="mt-20  min-h-[50vh] grid grid-cols-[1.2_1_1_1_1]">
+      <div className="mt-20  min-h-[50vh] grid place-items-center place-content-center grid-cols-1 lg:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <h2 className="text-3xl">Furni..</h2>
           <p className="mt-5">
@@ -42,10 +45,45 @@ function Footer() {
             long post for the text.`This small text has to be place here, since
             this is{" "}
           </p>
-          <div className="flex gap-1">
-            <div className="h-16 w-16 p-2 rounded flex justify-center items-center bg-grey">
+          <div className="mt-10 flex gap-1">
+            <div className="h-1o w-10 p-2 rounded flex justify-center items-center bg-grey">
               <FaFacebookF className="h-full w-full" />
             </div>
+            <div className="h-1o w-10 p-2 rounded flex justify-center items-center bg-grey">
+              <FaInstagram className="h-full w-full" />
+            </div>
+            <div className="h-1o w-10 p-2 rounded flex justify-center items-center bg-grey">
+              <FaTwitter className="h-full w-full" />
+            </div>
+            <div className="h-1o w-10 p-2 rounded flex justify-center items-center bg-grey">
+              <FaLinkedinIn className="h-full w-full" />
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-5 grid-cols-2">
+          <div className="flex flex-col gap-3">
+            <p> About us</p>
+            <p>Services</p>
+            <p>Blog</p>
+            <p>Contact us</p>
+          </div>
+          <div className="flex flex-col gap-3">
+            <p>Support</p>
+            <p>Knowledge base</p>
+            <p>Live chat</p>
+          </div>
+        </div>
+        <div className="grid gap-5 grid-cols-2">
+          <div className="flex flex-col gap-3">
+            <p> About us</p>
+            <p>Services</p>
+            <p>Blog</p>
+            <p>Contact us</p>
+          </div>
+          <div className="flex flex-col gap-3">
+            <p>Support</p>
+            <p>Knowledge base</p>
+            <p>Live chat</p>
           </div>
         </div>
       </div>
