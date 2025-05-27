@@ -1,4 +1,4 @@
-import chair1 from "../../../assets/img/chair1.png";
+
 
 function ChairPricingCard({BGcolor,title,pricing,img}) {
   return (

@@ -1,4 +1,4 @@
-import ChairPricingCard from "./components/chairPricingCard";
+import ChairPricingCard from "./components/ChairPricingCard";
 import chair1 from "../../assets/img/chair1.png";
 import chair2 from "../../assets/img/chair2.png";
 import chair3 from "../../assets/img/chair3.png";
