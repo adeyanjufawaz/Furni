@@ -1,0 +1,56 @@
+import { MdOutlineEmail } from "react-icons/md";
+import { FaLocationArrow } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import img from "../../assets/img/sofa.png";
+
+function Footer() {
+  return (
+    <div className=" relative p-[5%] ">
+      <div className="grid gap-7 lg:grid-cols-2">
+        <div className="flex flex-col">
+          <div className="flex gap-3 items-center">
+            <MdOutlineEmail size={34} />
+            <p>Subscribe to Newsletter</p>
+          </div>
+          <div className="flex mt-6 gap-4 flex-wrap">
+            <input
+              type="text"
+              className=" w-36 lg:w-56 h-12 p-3 text-sm border rounded-md outline-0"
+              placeholder="Enter your name"
+            />
+            <input
+              type="email"
+              className=" w-36 lg:w-56 h-12 p-3 text-sm border rounded-md outline-0"
+              placeholder="Enter your Email"
+            />
+            <div className="w-12 h-12 p-2 bg-pry">
+              <FaLocationArrow className="h-full w-full" color="white" />
+            </div>
+            {/* <input type="email" className='' placeholder='Enter your Email' /> */}
+          </div>
+        </div>
+        <div className="lg:absolute lg:right-[7%] lg:-top-16">
+          <img src={img} alt="Sofa" className="w-[80%]" />
+        </div>
+      </div>
+      <div className="mt-20  min-h-[50vh] grid grid-cols-[1.2_1_1_1_1]">
+        <div>
+          <h2 className="text-3xl">Furni..</h2>
+          <p className="mt-5">
+            Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
+            vivethe as it was for us to know what was to be done. the this is a
+            long post for the text.`This small text has to be place here, since
+            this is{" "}
+          </p>
+          <div className="flex gap-1">
+            <div className="h-16 w-16 p-2 rounded flex justify-center items-center bg-grey">
+              <FaFacebookF className="h-full w-full" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Footer;
