@@ -1,4 +1,3 @@
-import React from "react";
 import ChairPricingCard from "./components/chairPricingCard";
 import chair1 from "../../assets/img/chair1.png";
 import chair2 from "../../assets/img/chair2.png";
