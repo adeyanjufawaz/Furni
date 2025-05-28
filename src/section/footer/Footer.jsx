@@ -26,10 +26,9 @@ function Footer() {
               className=" w-32 lg:w-56 h-10 p-3 text-xs md:text-sm border rounded-md outline-0"
               placeholder="Enter your Email"
             />
-            <div className="w-10 h-10 p-2 bg-pry">
+            <button className="w-10 h-10 p-2  bg-pry">
               <FaLocationArrow className="h-full w-full" color="white" />
-            </div>
-            {/* <input type="email" className='' placeholder='Enter your Email' /> */}
+            </button>
           </div>
         </div>
         <div className="lg:absolute lg:right-[7%] lg:-top-16">
@@ -46,44 +45,44 @@ function Footer() {
             this is{" "}
           </p>
           <div className="mt-10 flex gap-1">
-            <div className="h-1o w-10 p-2 rounded flex justify-center items-center bg-grey">
+            <div className="h-1o w-10 cursor-pointer hover:text-pry hover:bg-yellow  p-2 rounded flex justify-center items-center bg-grey">
               <FaFacebookF className="h-full w-full" />
             </div>
-            <div className="h-1o w-10 p-2 rounded flex justify-center items-center bg-grey">
+            <div className="h-1o w-10 cursor-pointer hover:text-pry hover:bg-yellow  p-2 rounded flex justify-center items-center bg-grey">
               <FaInstagram className="h-full w-full" />
             </div>
-            <div className="h-1o w-10 p-2 rounded flex justify-center items-center bg-grey">
+            <div className="h-1o w-10 cursor-pointer hover:text-pry hover:bg-yellow  p-2 rounded flex justify-center items-center bg-grey">
               <FaTwitter className="h-full w-full" />
             </div>
-            <div className="h-1o w-10 p-2 rounded flex justify-center items-center bg-grey">
+            <div className="h-1o w-10 cursor-pointer hover:text-pry hover:bg-yellow  p-2 rounded flex justify-center items-center bg-grey">
               <FaLinkedinIn className="h-full w-full" />
             </div>
           </div>
         </div>
         <div className="mt-10 md:mt-0 grid gap-5 grid-cols-2">
           <div className="flex flex-col gap-3">
-            <p> About us</p>
-            <p>Services</p>
-            <p>Blog</p>
-            <p>Contact us</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold"> About us</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Services</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Blog</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Contact us</p>
           </div>
           <div className="flex flex-col gap-3">
-            <p>Support</p>
-            <p>Knowledge base</p>
-            <p>Live chat</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Support</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Knowledge base</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Live chat</p>
           </div>
         </div>
         <div className="mt-10 md:mt-0 grid gap-5 grid-cols-2">
           <div className="flex flex-col gap-3">
-            <p> Jobs</p>
-            <p>Our team</p>
-            <p>Leadership</p>
-            <p>Privacy Policy</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold"> Jobs</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Our team</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Leadership</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Privacy Policy</p>
           </div>
           <div className="flex flex-col gap-3">
-            <p>Nordic Chair</p>
-            <p>Kruzo Aero</p>
-            <p>Ergonomic</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Nordic Chair</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Kruzo Aero</p>
+            <p className="cursor-pointer hover:text-yellow hover:font-semibold">Ergonomic</p>
           </div>
         </div>
       </div>

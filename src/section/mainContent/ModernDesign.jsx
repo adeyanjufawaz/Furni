@@ -11,7 +11,7 @@ import CustomBtn from "../../components/CustomBtn";
 function ModernDesign() {
   return (
     <>
-      <div className=" grid justify-center  mx-auto items-center md:grid-cols-2 gap-20 mt-20">
+      <div className=" grid justify-center  mx-auto items-center md:grid-cols-2 gap-8 md:gap-0 mt-20">
         <section className=" w-[80%] min-h-96 relative">
           <div className="absolute h-[90%] w-full left-0 ">
             <img
@@ -47,7 +47,7 @@ function ModernDesign() {
             this is a place holder. You can also chane it.
           </p>
           <div className="my-8 grid gap-5 lg:grid-cols-2">
-            <div className="flex lg:justify-between gap-5 items-center">
+            <div className="flex lg:justify-between gap-2 items-center">
               <MdOutlineDonutLarge size={35} color="#3b5d50" />
               <div>
                 <p className="text-sm">
@@ -55,7 +55,7 @@ function ModernDesign() {
                 </p>
               </div>
             </div>
-            <div className="flex lg:justify-between gap-5 items-center">
+            <div className="flex lg:justify-between gap-2 items-center">
               <MdOutlineDonutLarge size={35} color="#3b5d50" />
               <div>
                 <p className="text-sm">
@@ -63,7 +63,7 @@ function ModernDesign() {
                 </p>
               </div>
             </div>
-            <div className="flex lg:justify-between gap-5 items-center">
+            <div className="flex lg:justify-between gap-2 items-center">
               <MdOutlineDonutLarge size={35} color="#3b5d50" />
               <div>
                 <p className="text-sm">
@@ -71,7 +71,7 @@ function ModernDesign() {
                 </p>
               </div>
             </div>
-            <div className="flex lg:justify-between gap-5 items-center">
+            <div className="flex lg:justify-between gap-2 items-center">
               <MdOutlineDonutLarge size={35} color="#3b5d50" />
               <div>
                 <p className="text-sm">

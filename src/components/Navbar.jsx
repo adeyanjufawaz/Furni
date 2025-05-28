@@ -35,11 +35,11 @@ const Navbar = () => {
 
       {/* Mobileview Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-4/5 bg-yellow z-40 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 h-full w-7/8 bg-gray-700 z-40 transform transition-transform duration-300 ease-in-out ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
-        <div className="flex items-center justify-between px-4 py-4 border-b border-purple-600">
+        <div className="flex items-center justify-between px-4 py-4 border-b">
           <div className="text-xl font-bold">Furni</div>
           <FaTimes className="text-2xl cursor-pointer" onClick={toggleMenu} />
         </div>
