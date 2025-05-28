@@ -18,15 +18,15 @@ function Footer() {
           <div className="flex mt-6 gap-4 flex-wrap">
             <input
               type="text"
-              className=" w-36 lg:w-56 h-12 p-3 text-sm border rounded-md outline-0"
+              className=" w-32 lg:w-56 h-10 p-3 text-xs md:text-sm border rounded-md outline-0"
               placeholder="Enter your name"
             />
             <input
               type="email"
-              className=" w-36 lg:w-56 h-12 p-3 text-sm border rounded-md outline-0"
+              className=" w-32 lg:w-56 h-10 p-3 text-xs md:text-sm border rounded-md outline-0"
               placeholder="Enter your Email"
             />
-            <div className="w-12 h-12 p-2 bg-pry">
+            <div className="w-10 h-10 p-2 bg-pry">
               <FaLocationArrow className="h-full w-full" color="white" />
             </div>
             {/* <input type="email" className='' placeholder='Enter your Email' /> */}
@@ -36,7 +36,7 @@ function Footer() {
           <img src={img} alt="Sofa" className="w-[80%]" />
         </div>
       </div>
-      <div className="mt-20  min-h-[50vh] grid place-items-center place-content-center grid-cols-1 lg:grid-cols-[1.2fr_1fr_1fr]">
+      <div className="mt-20  min-h-[50vh] grid md:place-items-center md:place-content-center grid-cols-1 lg:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <h2 className="text-3xl">Furni..</h2>
           <p className="mt-5">
@@ -60,7 +60,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="grid gap-5 grid-cols-2">
+        <div className="mt-10 md:mt-0 grid gap-5 grid-cols-2">
           <div className="flex flex-col gap-3">
             <p> About us</p>
             <p>Services</p>
@@ -73,17 +73,17 @@ function Footer() {
             <p>Live chat</p>
           </div>
         </div>
-        <div className="grid gap-5 grid-cols-2">
+        <div className="mt-10 md:mt-0 grid gap-5 grid-cols-2">
           <div className="flex flex-col gap-3">
-            <p> About us</p>
-            <p>Services</p>
-            <p>Blog</p>
-            <p>Contact us</p>
+            <p> Jobs</p>
+            <p>Our team</p>
+            <p>Leadership</p>
+            <p>Privacy Policy</p>
           </div>
           <div className="flex flex-col gap-3">
-            <p>Support</p>
-            <p>Knowledge base</p>
-            <p>Live chat</p>
+            <p>Nordic Chair</p>
+            <p>Kruzo Aero</p>
+            <p>Ergonomic</p>
           </div>
         </div>
       </div>

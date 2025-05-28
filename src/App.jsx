@@ -5,7 +5,7 @@ import WhyChooseUs from "./section/mainContent/WhyChooseUs";
 import ModernDesign from "./section/mainContent/ModernDesign";
 import Blog from "./section/mainContent/Blog";
 import Footer from "./section/footer/Footer";
-
+import Testimonial from "./section/mainContent/Testimonial";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,14 +16,14 @@ function App() {
       {/* MainContent */}
       <main className="bg-[#EFF2F1] p-[5%] flex flex-col gap-6  mx-auto">
         <ChairPricingSection />
-        <WhyChooseUs/>
-        <ModernDesign/>
-
+        <WhyChooseUs />
+        <ModernDesign />
+        <Testimonial />
         {/*  */}
-        <Blog/>
+        <Blog />
         {/*  */}
       </main>
-        <Footer/>
+      <Footer />
     </div>
   );
 }
