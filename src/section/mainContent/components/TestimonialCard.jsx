@@ -15,7 +15,9 @@ function TestimonialCard() {
       ? setCurCardIndex(0)
       : setCurCardIndex((prev) => prev + 1);
   };
-
+  const moveToPosition = (position) => {
+    setCurCardIndex(position)
+  };
   const { testimony, img, userName, position } = testimonials[curCardIndex];
   return (
     <div>
@@ -58,8 +60,9 @@ function TestimonialCard() {
       <div className="flex justify-center mt-4 gap-1">
         {testimonials.map((cur, ind) => (
           <div
+            onClick={() => moveToPosition(ind)}
             key={ind}
-            className={`h-2 w-2 rounded-full ${
+            className={`h-4 w-4 cursor-pointer rounded-full ${
               ind === curCardIndex ? "bg-gray-800" : "bg-gray-300"
             }`}
           ></div>
