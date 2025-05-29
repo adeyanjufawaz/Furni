@@ -24,7 +24,7 @@ function TestimonialCard() {
       <div className="flex justify-center items-center relative p-6">
         <button
           onClick={prev}
-          className="h-8 w-8 flex hover:bg-pry justify-center items-center bg-grey absolute left-0 top-1/2 p-4 rounded-full cursor-pointer"
+          className="h-8 w-8 flex hover:bg-pry hover:text-white justify-center items-center bg-grey absolute left-0 top-1/2 p-4 rounded-full cursor-pointer"
         >
           <div>
             <BiLeftArrowAlt size={24} />
@@ -43,12 +43,12 @@ function TestimonialCard() {
               />
             </div>
             <h2 className="text-lg font-normal">{userName}</h2>
-            <p className="text-base ">{position}.</p>
+            <p className="text-base text-light font-normal ">{position}.</p>
           </section>
         </main>
         <button
           onClick={next}
-          className={`h-8 w-8 flex hover:bg-pry justify-center items-center bg-grey  absolute right-0 top-1/2 p-4 rounded-full cursor-pointer`}
+          className={`h-8 w-8 flex hover:bg-pry hover:text-white justify-center items-center bg-grey  absolute right-0 top-1/2 p-4 rounded-full cursor-pointer`}
         >
           <div>
             <BiRightArrowAlt size={24} />
@@ -63,7 +63,7 @@ function TestimonialCard() {
             onClick={() => moveToPosition(ind)}
             key={ind}
             className={`h-4 w-4 cursor-pointer rounded-full ${
-              ind === curCardIndex ? "bg-gray-800" : "bg-gray-300"
+              ind === curCardIndex ? "bg-pry" : "bg-gray-300"
             }`}
           ></div>
         ))}

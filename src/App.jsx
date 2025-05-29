@@ -11,18 +11,20 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="pt-16">
+    <div className="w-full pt-16">
       <Header />
       {/* MainContent */}
-      <main className="bg-[#EFF2F1] p-[5%] flex flex-col gap-6  mx-auto">
-        <ChairPricingSection />
-        <WhyChooseUs />
-        <ModernDesign />
-        <Testimonial />
-        {/*  */}
-        <Blog />
-        {/*  */}
-      </main>
+      <div className="bg-[#EFF2F1] flex flex-col gap-6  mx-auto">
+        <main className="mx-auto w-3/4">
+          <ChairPricingSection />
+          <WhyChooseUs />
+          <ModernDesign />
+          <Testimonial />
+          {/*  */}
+          <Blog />
+          {/*  */}
+        </main>
+      </div>
       <Footer />
     </div>
   );

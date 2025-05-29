@@ -7,6 +7,7 @@ import chair2 from "../../assets/img/chair2.png"
 import chair3 from "../../assets/img/chair3.png"
 import { MdOutlineDonutLarge } from "react-icons/md";
 import CustomBtn from "../../components/CustomBtn";
+import { Circle } from "../../assets/icons";
 
 function ModernDesign() {
   return (
@@ -40,7 +41,7 @@ function ModernDesign() {
           <h2 className="text-3xl font-bold ">
             We help you make Modern Interior Design{" "}
           </h2>
-          <p className="text-base mt-6">
+          <p className="text-sm text-light mt-6">
             Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
             vivethe as it was for us to know what was to be done. the this is a
             long post for the text.`This small text has to be place here, since
@@ -48,33 +49,33 @@ function ModernDesign() {
           </p>
           <div className="my-8 grid gap-5 lg:grid-cols-2">
             <div className="flex lg:justify-between gap-2 items-center">
-              <MdOutlineDonutLarge size={35} color="#3b5d50" />
+              <Circle className="w-6"/>
               <div>
-                <p className="text-sm">
+                <p className="text-sm text-light font-normal">
                   Donec mattis porta eros,let aliquet finibus ri
                 </p>
               </div>
             </div>
             <div className="flex lg:justify-between gap-2 items-center">
-              <MdOutlineDonutLarge size={35} color="#3b5d50" />
+              <Circle className="w-6"/>
               <div>
-                <p className="text-sm">
+                <p className="text-sm text-light font-normal">
                   Donec mattis porta eros,let aliquet finibus ri
                 </p>
               </div>
             </div>
             <div className="flex lg:justify-between gap-2 items-center">
-              <MdOutlineDonutLarge size={35} color="#3b5d50" />
+              <Circle className="w-6"/>
               <div>
-                <p className="text-sm">
+                <p className="text-sm text-light font-normal">
                   Donec mattis porta eros,let aliquet finibus ri
                 </p>
               </div>
             </div>
             <div className="flex lg:justify-between gap-2 items-center">
-              <MdOutlineDonutLarge size={35} color="#3b5d50" />
+              <Circle className="w-6"/>
               <div>
-                <p className="text-sm">
+                <p className="text-sm text-light font-normal">
                   Donec mattis porta eros,let aliquet finibus ri
                 </p>
               </div>
@@ -92,9 +93,9 @@ function ModernDesign() {
             <img src={chair1} alt={img1} className="h-[120%] w-full z-10 " />
           </div>
           <div className="flex flex-col justify-center gap-1 w-3/4 ">
-            <h2 className="text-xl font-semibold">Nordic Chair</h2>
-            <p className="mt-2 text-sm">Donec mattis porta eros, aliquet finibus risus in. Donecd </p>
-            <p className="mt-3 font-medium text-sm ">Read more</p>
+            <h2 className="text-base font-bold">Nordic Chair</h2>
+            <p className="mt-2 text-sm text-light font-normal">Donec mattis porta eros, aliquet finibus risus in. Donecd </p>
+            <p className="mt-3 font-bold text-xs ">Read more</p>
           </div>
         </div>
         <div className="flex gap-5">
@@ -102,9 +103,9 @@ function ModernDesign() {
             <img src={chair2} alt={img1} className="h-[120%] w-full z-10 " />
           </div>
           <div className="flex flex-col justify-center gap-1 w-3/4 ">
-            <h2 className="text-xl font-semibold">Nordic Chair</h2>
-            <p className="mt-2 text-sm">Donec mattis porta eros, aliquet finibus risus in. Donecd </p>
-            <p className="mt-3 font-medium text-sm ">Read more</p>
+            <h2 className="text-base font-bold">Nordic Chair</h2>
+            <p className="mt-2 text-sm text-light font-normal">Donec mattis porta eros, aliquet finibus risus in. Donecd </p>
+            <p className="mt-3 font-bold text-xs ">Read more</p>
           </div>
         </div>
         <div className="flex gap-5">
@@ -112,9 +113,9 @@ function ModernDesign() {
             <img src={chair3} alt={img1} className="h-[120%] w-full z-10 " />
           </div>
           <div className="flex flex-col justify-center gap-1 w-3/4 ">
-            <h2 className="text-xl font-semibold">Nordic Chair</h2>
-            <p className="mt-2 text-sm">Donec mattis porta eros, aliquet finibus risus in. Donecd </p>
-            <p className="mt-3 font-medium text-sm ">Read more</p>
+            <h2 className="text-base font-bold">Nordic Chair</h2>
+            <p className="mt-2 text-sm text-light font-normal">Donec mattis porta eros, aliquet finibus risus in. Donecd </p>
+            <p className="mt-3 font-bold text-xs ">Read more</p>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ function Blog() {
           </div>
           <div className="flex flex-col mt-4 gap-2">
             <h2 className="text-base font-bold">First Time Home Owner Ideas</h2>
-            <p>by Nana Ama on Nov 18th, 2022</p>
+            <p className="font-semibold"> <span className="text-light text-sm font-normal">by</span> Nana Ama <span className="text-light text-sm font-normal">on</span> Nov 18th, 2022</p>
           </div>
         </div>
         <div className="flex flex-col gap-2 w-4/5 mx-auto my-9">
@@ -25,7 +25,7 @@ function Blog() {
           </div>
           <div className="flex flex-col mt-4 gap-2">
             <h2 className="text-base font-bold">First Time Home Owner Ideas</h2>
-            <p>by Nana Ama on Nov 18th, 2022</p>
+            <p className="font-semibold"> <span className="text-light text-sm font-normal">by</span> Nana Ama <span className="text-light text-sm font-normal">on</span> Nov 18th, 2022</p>
           </div>
         </div>
         <div className="flex flex-col gap-2 w-4/5 mx-auto my-9">
@@ -34,7 +34,7 @@ function Blog() {
           </div>
           <div className="flex flex-col mt-4 gap-2">
             <h2 className="text-base font-bold">First Time Home Owner Ideas</h2>
-            <p>by Nana Ama on Nov 18th, 2022</p>
+            <p className="font-semibold"> <span className="text-light text-sm font-normal">by</span> Nana Ama <span className="text-light text-sm font-normal">on</span> Nov 18th, 2022</p>
           </div>
         </div>
       </div>

@@ -6,18 +6,18 @@ import DottedImage from "../../components/DottedImage";
 
 function HeaderContents() {
   return (
-    <div className="pt-10 grid gap-3 md:grid-cols-[1fr_1.3fr]">
+    <div className="pt-10 grid gap-3 md:grid-cols-[1fr_1.23fr]">
       <section className="flex flex-col justify-center gap-12 order-2 md:order-1 w-full">
         <div>
           <h2 className="text-4xl md:text-6xl text-white font-semibold">
             Modern Interior Design Studio
           </h2>
         </div>
-        <div className="flex flex-wrap gap-5">
+        <div className="flex flex-wrap gap-5 mt-14">
           <CustomBtn BGcolor={"bg-yellow"} color={"text-black"}>
             Shop Now
           </CustomBtn>
-          <CustomBtn border={"border-1 border-white"} color={"black"}>Explore</CustomBtn>
+          <CustomBtn border={"border-1 border-white"} color={"text-white"}>Explore</CustomBtn>
         </div>
         <div></div>
       </section>
